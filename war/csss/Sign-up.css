@@ -1,0 +1,251 @@
+@CHARSET "UTF-8";
+
+.signup_wrapper
+{
+	height 		: 560px;
+	background	: url(/images/banner-wrapper.png); 
+}
+
+.signup_wrapper .form
+{
+	position	: relative;
+	background	: white url(/images/inner_banner_bg.gif) repeat-x 0px -210px;
+	width		: 650px;
+	height		: 500px;
+	top			: 35px;
+	left		: 30px;	
+	box-shadow	: 2px 2px 8px rgba(0, 0, 0, .3);
+}
+#thirdparty_linkssss
+{
+	padding		:10px 20px 20px 20px;
+	font-size   : 25px;
+
+
+
+}
+.signup_banner
+{
+	width: 249px;
+	border-bottom: 1px dotted #999;
+	padding-bottom: 14px;	
+}
+
+
+.form h1
+{
+	padding : 15px;
+	font-size: 26px;
+}
+
+.signup_frm
+{
+	height: 300px;
+	width: 330px;
+	margin-left: 20px;
+	margin-top: 25px;
+	border-right : 1px dotted #ccc;
+	
+}
+
+
+.signup_frm label
+{
+	color: #999;
+	font-size: 14px;
+}
+
+.formtext 
+{
+	width: 275px;
+	height: 38px;
+	border: 1px solid #bbb;
+	font-size: 14px;
+	background: url(/images/form-bg-blur.gif) repeat-x 0px -1px;
+	margin-top : 3px;
+
+}
+
+.formtext:FOCUS
+{
+	border: 1px solid #1490E7;
+    box-shadow: 0 0 3px #1490E7;
+    background: url(/images/form-bg.gif) repeat-x 0px 0px;
+}
+
+.signup_frm li
+{
+	margin-bottom : 18px;
+}
+
+#signupbtn
+{
+	background: url(/images/medium-cta.png) no-repeat;
+	height: 55px;
+	width: 266px;
+	color: white;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-left: 10px;
+	text-shadow: 0px -1px 0px #349B20;
+	display: block;
+	margin: 20px 0px 50px;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#signupbtn:HOVER
+{
+	background-position: 0px -56px;
+}
+
+.facebooksignup
+{
+	background: url(/images/fbnew.png);
+	height: 60px;
+	width: 241px;
+	border: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-position: -17px -4px;
+	cursor: pointer;
+	box-shadow:2px 2px 10px rgba(0,0,0,.4);
+}
+
+.googleSignup
+{
+	cursor:pointer;
+	background: url(/images/googlesignup.png);
+	height: 64px;
+	color: white;
+	text-indent: 57px;
+	border: none;
+	font-size: 13px;
+	width: 241px;
+	font-weight: bold;
+	box-shadow:2px 2px 10px rgba(0,0,0,.4);
+}
+
+.googleSignup:HOVER
+{
+	background-position: 0px -88px;
+}
+
+.thirdpartysignup
+{
+	width: 250px;
+	height: 150px;
+	float: right;
+	margin-right: 28px;
+	margin-top: 90px;
+}
+
+.thirdpartysignup p
+{
+	font-size : 18px;
+	text-align: center;
+	color: #999;
+	margin-top: 15px;
+}
+
+
+.bulletpoints
+{
+	float : right;
+	width : 265px;
+	margin-top: 60px;
+	margin-right:20px;
+}
+
+.bulletpoints ul
+{
+	margin-top : 16px;
+}
+
+.bulletpoints li
+{
+	background: url(/images/icons.png) 0px -44px no-repeat;
+	padding-left: 30px;
+	font-size: 13px;
+	color: #333; 
+	margin-bottom:15px;
+}
+
+label.error
+{
+	font-size: 11px;
+	color: red;	
+}
+
+.response-box
+{
+	position: fixed;
+	height: 30px;
+	width: 100%;
+	z-index: 999;
+	display:none;
+}
+
+.response-box p
+{
+	text-align: center;
+}
+
+.response-box span
+{
+	background: #FFFED5;
+	border: 1px solid #CFCD59;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+	border-radius: 0px 0px 5px 5px;
+	box-shadow: 2px 2px rgba(0,0,0,.1);
+	padding: 10px 12px 5px;
+}
+.sales_toll_no{
+	width: 362px;
+	font-family: "Droid Sans";
+	float: right;
+	text-align: right;
+	margin: 25px 15px 0px 0px;
+	}
+.sales_toll_no span{
+	display: block;
+	font-size: 16px;
+	color: #777;
+	}
+.sales_toll_no div{
+	font-size: 22px;
+	color: #555;
+	padding: 5px 0;
+	}
+
+/*
+.page_nav .active
+{
+	background: url(/images/link_bg.png);
+}
+
+.page_nav li:HOVER
+{
+	background: url(/images/link_bg.png);
+	background-position: 8px 13px;
+	background-repeat: no-repeat;
+}
+
+.page_nav .active
+{
+	color: #333;
+	background: url(/images/link_bg.png);
+	background-position: 8px 13px;
+	background-repeat: no-repeat;
+}
+.page_nav .try_it_free a:HOVER
+{
+	background-image: url(/images/freetrialactive.png);
+}
+
+*/

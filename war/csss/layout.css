@@ -1,0 +1,121 @@
+/*=============================================
+	Layout formatting
+ =============================================*/
+
+/* Setup the page wrapper */
+div#wrapper {
+	width: 1002px;
+	margin: 0 auto;
+	float: none;
+	position: relative;	
+}
+
+.inner_wrapper {
+	width: 984px;
+	padding: 0 1px;
+	margin: 0 auto;
+}
+
+div#page,
+div#page > div,
+div#page_top_cap,
+div#page_bottom_cap {
+	float: left;
+	width: 1002px;
+}
+
+/* Layout grid: 12 columns divisible by 1, 2, 3, 4 and 6 */
+.layout-columns-1, .layout-columns-2, .layout-columns-3, .layout-columns-4, 
+.layout-columns-5, .layout-columns-6, .layout-columns-7, .layout-columns-8, 
+.layout-columns-9, .layout-columns-10, .layout-columns-11, .layout-columns-12 {
+	padding: 0;
+	float: left;
+}
+
+.layout-columns-half	{ width: 41px; }
+.layout-columns-1 		{ width: 82px; }
+.layout-columns-2 		{ width: 164px; }
+.layout-columns-3 		{ width: 246px; }
+.layout-columns-4 		{ width: 328px; }
+.layout-columns-5 		{ width: 410px; }
+.layout-columns-6 		{ width: 492px; }
+.layout-columns-7 		{ width: 574px; }
+.layout-columns-8 		{ width: 656px; }
+.layout-columns-9 		{ width: 738px; }
+.layout-columns-10 		{ width: 820px; }
+.layout-columns-11 		{ width: 902px; }
+.layout-columns-12 		{ width: 984px; }
+
+
+
+/* Content grid: 12 columns divisible by 1, 2, 3, 4 and 6 */
+.columns-1, .columns-2, .columns-3, .columns-4, .columns-5, .columns-6, 
+.columns-7, .columns-8, .columns-9, .columns-10, .columns-11, .columns-12 {
+	margin: 0 11px;
+	padding: 0;
+	float: left;
+}
+
+.columns-1 		{ width: 60px; }
+.columns-2 		{ width: 142px; }
+.columns-3 		{ width: 224px; margin-top: 3px;}
+.columns-4 		{ width: 306px; }
+.columns-5 		{ width: 388px; }
+.columns-6 		{ width: 470px; }
+.columns-7 		{ width: 552px; }
+.columns-8 		{ width: 634px; }
+.columns-9 		{ width: 716px; }
+.columns-10 	{ width: 798px; }
+.columns-11 	{ width: 880px; }
+.columns-12 	{ width: 962px; }
+
+
+
+/* Content */
+.content {
+	float: left;
+	width: 100%;
+	margin: 0 15px;
+}
+
+
+.columns-1		.content { width: 30px; }
+.columns-2		.content { width: 112px; }
+.columns-3		.content { width: 194px; }
+.columns-4		.content { width: 276px; }
+.columns-5		.content { width: 358px; }
+.columns-6		.content { width: 440px; }
+.columns-7		.content { width: 522px; }
+.columns-8		.content { width: 604px; }
+.columns-9		.content { width: 886px; }
+.columns-10		.content { width: 768px; }
+.columns-11		.content { width: 850px; }
+.columns-12		.content { width: 932px; }
+
+
+.layout-columns-half:after, 
+.layout-columns-1:after, .layout-columns-2:after, .layout-columns-3:after, .layout-columns-4:after, 
+.layout-columns-5:after, .layout-columns-6:after, .layout-columns-7:after, .layout-columns-8:after, 
+.layout-columns-9:after, .layout-columns-10:after, .layout-columns-11:after, .layout-columns-12:after,
+.columns-half:after,
+.columns-1:after, .columns-2:after, .columns-3:after, .columns-4:after, 
+.columns-5:after, .columns-6:after, .columns-7:after, .columns-8:after, 
+.columns-9:after, .columns-10:after, .columns-11:after, .columns-12:after, 
+.content:after,
+#page > div:after,
+#page:after,
+#page_top_cap:after,
+#page_bottom_cap:after,
+#wrapper:after 
+{
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+
+
+.left 	{ text-align: left; }
+.center { text-align: center; }
+.right 	{ text-align: right; }
